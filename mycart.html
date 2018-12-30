@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/fork.png">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a href="index.html">
+            <img src="images/pizzaonline-logo.png" alt="pizzaonline-logo">
+            </a>
+            <div class="navbar-burger" data-target="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+
+                <div class="navbar-end">
+
+                    <a href="menu.html" class="navbar-item zoom">MENU</a>
+                    <a href="mycart.html" class="navbar-item zoom">MYCART</a>
+                    <a href="feedback.html" class="navbar-item zoom">FEEDBACK</a>
+                    <a href="login.html" class="navbar-item zoom">LOGIN</a>
+                </div>
+
+        </div>
+    </nav>
+
+<!-- Main container -->
+
+  <section class="section">
+    <div class="container topic">
+      <h1 class="title">
+        CONTENTS OF SHOPPING MARKET
+      </h1>
+    </div>
+
+
+  </section>
+
+  <section class="section">
+        <div class="container">
+
+            <div class="columns">
+                <div class="column is-one-half" id="cartbox">
+                    <div class="columns">
+                        <div class="column">
+
+                            <div class="box">
+                                    <article class="media">
+                                      <div class="media-left">
+                                        <figure class="image is-128x128">
+                                          <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                                        </figure>
+                                      </div>
+                                      <div class="media-content">
+                                        <div class="content">
+                                        <h2>Margherita</h2>
+                                        <p>Tomaatti, mozzarella, basilika</p>
+                                        <p>Size: medium</p>
+                                        <p>Further information:-</p>
+                                        <h2 class="price">40$</h2>
+                                        <div class="column btnColumn">
+                                                <input type="button " class="button btnCancel zoom" value="Cancel">
+                                            </div>
+                                        </div>
+                                     </div>
+                            </div>
+
+
+                            <div class="box">
+                                    <article class="media">
+                                      <div class="media-left">
+                                        <figure class="image is-128x128">
+                                          <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                                        </figure>
+                                      </div>
+                                      <div class="media-content">
+                                        <div class="content">
+                                        <h2>Salami</h2>
+                                        <p>Salami, paprika, jalapeno</p>
+                                        <p>Size: medium</p>
+                                        <p>Further information:-</p>
+                                        <h2 class="price">37$</h2>
+                                        <div class="column btnColumn">
+                                                <input type="button " class="button btnCancel zoom" value="Cancel">
+                                            </div>
+                                        </div>
+                                     </div>
+                            </div>
+
+                            <div class="box">
+                                    <article class="media">
+                                      <div class="media-left">
+                                        <figure class="image is-128x128">
+                                          <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                                        </figure>
+                                      </div>
+                                      <div class="media-content">
+                                        <div class="content">
+                                        <h2>Minced meat</h2>
+                                        <p>Minced meat</p>
+                                        <p>Size: large</p>
+                                        <p>Further information:-</p>
+                                        <h2 class="price">38$</h2>
+                                        <div class="column btnColumn">
+                                                <input type="button " class="button btnCancel zoom" value="Cancel">
+                                            </div>
+                                        </div>
+                                     </div>
+                            </div>
+
+                        </div>
+
+                        </div>
+
+                </div>
+
+
+                <div class="column is-one-half" id="orderSide">
+                    <div class="column">
+                    <h2>Hopes, comments, greetings to the chef?</h2>
+                    <p class="subtitle">Add your optional message to the message field below</p>
+                    </div>
+                    <div class="field">
+                        <label for="" class="label">Message</label>
+                        <div class="control">
+                            <textarea class="textarea" placeholder="Enter your message here ..."></textarea>
+                    </div>
+                    </div>
+
+                    <div class="column centered">
+                        <p>Please check your order details before ordering. If the order is OK, press the button below and go to the next step.</p>
+                    </div>
+
+                    <div class="column btnColumn">
+                            <input type="submit" class="button orderBtn zoom" value="ORDER NOW!">
+                        </div>
+
+                    </div>
+
+            </div>
+        </div>
+    
+      </section>
+
+      <section class="section" id="questions">
+        <div class="columns">
+            <div class="column is-one-fifth">
+            <a href="tilausinfo.html">Questions about ordering?</a>
+        </div>
+
+        </div>
+
+
+      </section>
+
+      <footer class="footer">
+          <div class="container">
+              <div class="content has-text-centered">
+                    <img src="images/pizzaonline-footer.png" alt="footer-logo">
+              </div>
+
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-one-quarter footer-side text-align-left">
+                        <h2>ORDER</h2>
+                        <a href="">Republic Street</a>
+                        <br>
+                        <a href="">High Dam Street</a>
+                    </div>
+
+                    <div class="column is-one-quarter footer-location">
+                        <h2> Visit Us </h2>
+                        <p>Check It Now!! </p>
+                        <a href="Contact.html#mapImg">LocationOnMap</a>
+                    </div>
+
+                    <div class="column is-one-quarter">
+                        <p>Visiting hours :</p>
+                            <p>Mon-Fri 10 am-6pm</p>
+                            <p> 12-22 12-18 </p>
+
+                        </div>
+
+                    <div class="column is-one-quarter footer-side text-align-right">
+                        <h2>TAKE CONTACT</h2>
+                        <a href="">Message Us</a>
+                        <br>
+                        <a href="Contact.html">HERE!</a>
+                        </div>
+
+
+                </div>
+            </div>
+          </div>
+      </footer>
+
+  </body>
+
+
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>logIn</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/fork.png">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a href="index.html">
+            <img src="images/pizzaonline-logo.png" alt="pizzaonline-logo">
+            </a>
+            <div class="navbar-burger" data-target="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+
+                <div class="navbar-end">
+
+                <a href="menu.html" class="navbar-item zoom">MENU</a>
+                <a href="mycart.html" class="navbar-item zoom">MyCart</a>
+                <a href="feedback.html" class="navbar-item zoom">FeedBack</a>
+                <a href="login.html" class="navbar-item zoom">LOGIN</a>
+                </div>
+
+        </div>
+    </nav>
+
+<!-- Main container -->
+
+  <section class="section">
+    <div class="container topic">
+      <h1 class="title">
+        LOG IN
+      </h1>
+    </div>
+
+  </section>
+
+      <section class="section login-section">
+        <div class="columns">
+
+            <div class="column is-one-third"></div> <!-- Spacer div -->
+
+
+            <div class="column is-one-third is-centered column-box">
+
+                <div class="columns">
+                    <!-- username -->
+                    <div class="column">
+                        <div class="field">
+                            <label class="label left-side own-label">Username</label>
+                        <div class="control centered">
+                            <input class="input login-box" type="text" placeholder="Enter your username ...">
+                            </div>
+                        </div>
+                        <!-- password -->
+                            <div class="field">
+                                <label class="label left-side own-label">Password</label>
+                              
+                            <div class="control centered">
+                                <input class="input login-box" type="password"  placeholder="Enter your password ..." >
+                                </div>
+                                <div class="align-end">
+                                    <a href="password-reset.html">Did you forget your password?</a>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+
+                <div class="column">
+
+                    <button class="button loginBtn zoom">Login</button>
+
+                </div>
+
+                <div class="column signup-redirect">
+
+                        <p>Not recognized?<a href="createAccount.html">Create a new account here.</a></p>
+
+                    </div>
+
+            </div>
+
+            <div class="column is-one-third"></div> <!-- Spacer div -->
+        </div>
+
+      </section>
+
+
+        <!-- Footer -->
+
+      <footer class="footer">
+          <div class="container">
+              <div class="content has-text-centered">
+                    <img src="images/pizzaonline-footer.png" alt="footer-logo">
+              </div>
+
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-one-quarter footer-side text-align-left">
+                        <h2>ORDER</h2>
+                        <a href="">terms of order</a>
+                        <br>
+                        <a href="">cancelling the order</a>
+                    </div>
+
+                    <div class="column is-one-quarter footer-location">
+                        <h2> Visit Us </h2>
+                        <p>Check It Now!! </p>
+                    <a href="Contact.html#mapImg">LocationOnMap</a>
+                    </div>
+
+                    <div class="column is-one-quarter">
+                        <p>Visiting hours :</p>
+                            <p>Mon-Fri 10 am-6pm</p>
+                            <p> 12-22 12-18 </p>
+                        </div>
+
+                    <div class="column is-one-quarter footer-side text-align-right">
+                        <h2>TAKE CONTACT</h2>
+                        <a href="">Message Us</a>
+                        <br>
+                        <a href="Contact.html">HERE!</a>
+                        </div>
+
+
+                </div>
+            </div>
+          </div>
+      </footer>
+
+  </body>
+
+
+</html>

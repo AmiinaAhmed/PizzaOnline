@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/fork.png">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a href="index.html">
+            <img src="images/pizzaonline-logo.png" alt="pizzaonline-logo">
+            </a>
+            <div class="navbar-burger" data-target="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+
+                <div class="navbar-end">
+                    <a href="menu.html" class="navbar-item zoom">MENU</a>
+                    <a href="mycart.html" class="navbar-item zoom">MYCART</a>
+                    <a href="feedback.html" class="navbar-item zoom">FEEDBACK</a>
+                <a href="login.html" class="navbar-item zoom">LOGIN</a>
+                </div>
+
+        </div>
+    </nav>
+
+<!-- Main container -->
+
+  <section class="section">
+    <div class="container topic">
+      <h1 class="title">
+        MENU
+      </h1>
+    </div>
+
+
+  </section>
+
+
+  <!-- Topic  -->
+  <section class="section topicMenu">
+    <div class="columns">
+        <div class="column is-one-quarter">
+            <h2 class="food-category active-category" id="pizzaPicker">Pizza</h2>
+        </div>
+
+        <div class="column is-one-quarter">
+            <h2 class="food-category" id="saladPicker">Salads</h2>
+        </div>
+
+        <div class="column is-one-quarter">
+            <h2 class="food-category" id="kebabPicker">Kebab</h2>
+        </div>
+
+        <div class="column is-one-quarter">
+            <h2 class="food-category" id="otherFoodsPicker">Other</h2>
+        </div>
+
+
+    </div>
+    </section>
+
+        <!-- Menu items, pizzas -->
+    <section class="section foodMenu pizzas" id="pizzaSection">
+        <div class="columns">
+            <div class="column is-one-third">
+                <div class="food-img is-128x128">
+                    <img src="https://bulma.io/images/placeholders/256x256.png" alt="Image">
+                </div>
+                <h2>MARGHERITA</h2>
+
+                <p>Tomaatti, mozzarella, basilika</p>
+
+                <button class="button add-to-cart">Add To Cart</button>
+            </div>
+    
+            <div class="column is-one-third">
+                <div class="food-img is-128x128">
+                    <img src="https://bulma.io/images/placeholders/256x256.png" alt="Image">
+                </div>
+                <h2>SALAMI</h2>
+
+                <p>Salami, paprika, jalapeno</p>
+
+                <button class="button add-to-cart">Add To Cart</button>
+            </div>
+    
+            <div class="column is-one-third">
+                <div class="food-img is-128x128">
+                    <img src="https://bulma.io/images/placeholders/256x256.png" alt="Image">
+                </div>
+                <h2>MINCED MEAT </h2>
+
+                <p>MINCED MEAT </p>
+
+                <button class="button add-to-cart">Add To Cart</button>
+            </div>
+    
+        </div>
+        </section>
+
+        <!-- Menu items, salads -->
+        <section class="section foodMenu salads" id="saladSection">
+                <div class="columns">
+                    <div class="column is-one-third">
+                        <div class="food-img is-128x128">
+                            <img src="https://bulma.io/images/placeholders/256x256.png" alt="Image">
+                        </div>
+                        <h2>CHICKEN SALAD</h2>
+        
+                        <p>Chicken, iceberg lettuce, tomato, cucumber</p>
+        
+                        <button class="button add-to-cart">Add To Cart</button>
+                    </div>
+            
+                    <div class="column is-one-third">
+                        <div class="food-img is-128x128">
+                            <img src="https://bulma.io/images/placeholders/256x256.png" alt="Image">
+                        </div>
+                        <h2>GREEK SALAD</h2>
+        
+                        <p>Ice berg salad, tomato, cucumber, olive, feta </p>
+        
+                        <button class="button add-to-cart">Add To Cart</button>
+                    </div>
+            
+                    <div class="column is-one-third">
+                        <div class="food-img is-128x128">
+                            <img src="https://bulma.io/images/placeholders/256x256.png" alt="Image">
+                        </div>
+                        <h2>TUNA SALAD </h2>
+        
+                        <p>Ttuna, iceberg lettuce, tomato, cucumber</p>
+        
+                        <button class="button add-to-cart">Add To Cart</button>
+                    </div>
+            
+                </div>
+                </section>
+
+
+                <!-- Menu items, kebabs  -->
+                <section class="section foodMenu kebabs" id="kebabSection">
+                        <div class="columns">
+                            <div class="column is-one-third">
+                                <div class="food-img is-128x128">
+                                    <img src="https://bulma.io/images/placeholders/256x256.png" alt="Image">
+                                </div>
+                                <h2>KEBAB RIIS</h2>
+                
+                                <p>Kebab, rice, salad, sauce</p>
+                
+                                <button class="button add-to-cart">Add To Cart</button>
+                            </div>
+                    
+                            <div class="column is-one-third">
+                                <div class="food-img is-128x128">
+                                    <img src="https://bulma.io/images/placeholders/256x256.png" alt="Image">
+                                </div>
+                                <h2>KEBAB WITH FRIES</h2>
+                
+                                <p>Kebab, French, salad, sauce</p>
+                
+                                <button class="button add-to-cart">Add To Cart</button>
+                            </div>
+                    
+                            <div class="column is-one-third">
+                                <div class="food-img is-128x128">
+                                    <img src="https://bulma.io/images/placeholders/256x256.png" alt="Image">
+                                </div>
+                                <h2>KEBAB-BURGER</h2>
+                
+                                <p>Kebab, pie bread</p>
+                
+                                <button class="button add-to-cart">Add To Cart</button>
+                            </div>
+                    
+                        </div>
+                        </section>
+
+                        <section class="section foodMenu otherFoods" id="otherFoodsSection">
+                                <div class="columns">
+                                    <div class="column is-one-third">
+                                        <div class="food-img is-128x128">
+                                            <img src="https://bulma.io/images/placeholders/256x256.png" alt="Image">
+                                        </div>
+                                        <h2>BBQ CHICKEN</h2>
+                        
+                                        <p>Chicken, rice or french fries, salad, BBQ sauce</p>
+                        
+                                        <button class="button add-to-cart">Add To Cart</button>
+                                    </div>
+                            
+                                    <div class="column is-one-third">
+                                        <div class="food-img is-128x128">
+                                            <img src="https://bulma.io/images/placeholders/256x256.png" alt="Image">
+                                        </div>
+                                        <h2>STEAK</h2>
+                        
+                                        <p>Beef steak, rice or french fries, salad</p>
+                        
+                                        <button class="button add-to-cart">Add To Cart</button>
+                                    </div>
+                            
+                                    <div class="column is-one-third">
+                                        <div class="food-img is-128x128">
+                                            <img src="https://bulma.io/images/placeholders/256x256.png" alt="Image">
+                                        </div>
+                                        <h2>TALON BURGER</h2>
+                        
+                                        <p>90 g powdered steak, tomato, salad, roll, burger sauce in the house</p>
+                        
+                                        <button class="button add-to-cart">Add To Cart</button>
+                                    </div>
+                            
+                                </div>
+                                </section>
+
+
+
+        <!-- Footer -->
+      <footer class="footer">
+          <div class="container">
+              <div class="content has-text-centered">
+                    <img src="images/pizzaonline-footer.png" alt="footer-logo">
+              </div>
+
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-one-quarter footer-side text-align-left">
+                        <h2>ORDER</h2>
+                        <a href="">Republic Street</a>
+                    <br>
+                    <a href="">High Dam Street</a>
+                    </div>
+
+                    <div class="column is-one-quarter footer-location">
+                        <h2> Visit Us </h2>
+                        <p>Check It Now!! </p>
+                        <a href="Contact.html#mapImg">LocationOnMap</a>
+                    </div>
+
+                    <div class="column is-one-quarter">
+                        <p>Visiting hours :</p>
+                        <p>Mon-Fri 10 am-6pm</p>
+                        <p> 12-22 12-18 </p>
+
+                        </div>
+
+                    <div class="column is-one-quarter footer-side text-align-right">
+                            <h2>TAKE CONTACT</h2>
+                            <a href="">Message Us</a>
+                            <br>
+                            <a href="Contact.html">HERE!</a>
+                        </div>
+
+
+                </div>
+            </div>
+          </div>
+      </footer>
+
+  </body>
+
+</html>

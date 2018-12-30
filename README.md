@@ -1,5 +1,5 @@
 # PizzaOnline
-A website concept done as a collage project based on HTML, CSS and JavaScript. Page content is in Finnish.
+A website concept done as a collage project based on HTML, CSS ,JavaScript and JQuery. Page content is in Finnish.
 
 Bulma was used as a framework.
 
